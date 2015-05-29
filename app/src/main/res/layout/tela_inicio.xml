@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<RadioGroup android:id="@+id/radioGroup1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<RadioButton android:text="Dificil" android:id="@+id/radioButton1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+		<RadioButton android:text="Medio" android:id="@+id/radioButton2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+		<RadioButton android:text="Facil" android:id="@+id/radioButton3"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:checked="true"></RadioButton>
+	</RadioGroup>
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TextView android:text="Nome" android:id="@+id/textView1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:id="@+id/editTextNome" android:text=""
+			android:layout_height="wrap_content" android:layout_width="fill_parent"></EditText>
+	</LinearLayout>
+	<Button android:text="JOGAR" android:layout_height="wrap_content"
+		android:id="@+id/btJogar" android:layout_width="fill_parent"></Button>
+</LinearLayout>
